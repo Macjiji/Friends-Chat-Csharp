@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="15dp">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      android:text="Type de Tchat"/>
+
+  <Spinner
+      android:id="@+id/chatType"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp"/>
+
+  <TextView
+      android:id="@+id/titleUserSelection"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      android:text="Sélectionner un utilisateur"/>
+
+  <Spinner
+      android:id="@+id/chatUser"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp"/>
+
+  <TextView
+      android:id="@+id/titleChatName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      android:text="Nom du Tchat"/>
+
+  <EditText
+      android:id="@+id/chatRoomName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp"/>
+
+  <Button
+      android:id="@+id/button_ok"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:text="Valider"
+      android:textAllCaps="false"/>
+
+
+</LinearLayout>

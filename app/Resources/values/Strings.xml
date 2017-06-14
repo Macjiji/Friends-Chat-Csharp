@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">Friends Chat</string>
+
+    <string-array name="group_type_array">
+      <item>Tchat de Groupe</item>
+      <item>Tchat pour deux</item>
+    </string-array>
+
+</resources>
